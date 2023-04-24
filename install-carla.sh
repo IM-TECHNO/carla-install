@@ -1,6 +1,6 @@
 echo "Installing Carla Simulator"
 echo ""
-if nc -zw1 keyserver.ubuntu.com 80; then
+if ping -q -c 1 -W 1 keyserver.ubuntu.com >/dev/null; then
   echo "Connection successful"
   echo ""
   sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1AF1527DE64CB8D9
