@@ -1,4 +1,4 @@
-echo "Installing Carla Simulator"
+echo "Installing Carla Simulator "
 echo ""
 if ping -q -c 1 -W 1 keyserver.ubuntu.com >/dev/null; then
   echo "Connection successful"
